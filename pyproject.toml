@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-google-login"
+name = "keytrustee-example"
 version = "0.1.0"
 description = ""
 authors = ["githubcustomerserviceistrash <97557694+githubcustomerserviceistrash@users.noreply.github.com>"]

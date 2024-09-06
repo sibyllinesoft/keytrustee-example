@@ -113,13 +113,13 @@
         const idToken = localStorage.getItem("idToken");
         const authToken = localStorage.getItem("authToken");
 
-        const response = await fetch("http://localhost/api/completions", {
+        const response = await fetch("http://app.keytrustee.org/api/completions", {
           method: "POST",
           headers: {
             Authorization: `Bearer ${idToken}`,
             "X-Auth-Token": authToken,
             "X-KeyTrustee-Application-Id":
-              "806342164213-2djb2afcvt9fuqdrgfdovmk4m6r5isj9.apps.googleusercontent.com",
+              "{your_application_id}",
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
